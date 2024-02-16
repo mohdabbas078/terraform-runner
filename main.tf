@@ -4,7 +4,7 @@ provider "google" {
 
 module "getvpc" {
   source = "git::https://github.com/mohdabbas078/module-terraform.git"
-  #name = "default"
+  name = "default"
 }
 
 output "self_link" {
